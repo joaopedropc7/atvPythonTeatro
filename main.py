@@ -118,7 +118,7 @@ def reservarPoltrona():
     print("A poltrona " + str(numeroPoltronaEscolhida) + " foi reservada por " + str(nomeLocadorPoltrona))     
                
 def cancelarReservaPoltrona():
-    print("Digite o número da poltrona que deseja reservar!")
+    print("Digite o número da poltrona que deseja cancelar!")
     numeroPoltronaEscolhida = int(input())
     
     while ((numeroPoltronaEscolhida < 1) or (numeroPoltronaEscolhida > 5) or (verificaDisponibilidadePoltronaEspecifica(numeroPoltronaEscolhida) == True)):
